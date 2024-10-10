@@ -24,13 +24,15 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
             [60, 70, 80]
         ];
         ?>
+
+        <!-- Uso de las funciones creadas --> 
         <h3>Matriz 1: </h3>
         <?php
-        echo muestra_matriz($matriz1);
+        muestra_matriz($matriz1);
         ?>
         <h3>Matriz 2: </h3>
         <?php
-        echo muestra_matriz($matriz2);
+        muestra_matriz($matriz2);
         ?>
         <h3>Realizamos la suma de las matrices: </h3>
         <?php
